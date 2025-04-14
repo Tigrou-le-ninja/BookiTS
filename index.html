@@ -16,10 +16,11 @@
 
 <body>
     <div class="main-container">
+
         <!-- Header : Nav + Slogan -->
         <header class="nav-slogan">
            <div class="logo-navigation">
-            <img src="images\logo\Booki.png" alt="Logo de Booki">
+            <img src="./images/logo/Booki.png" alt="Logo de Booki">
             <div class="navigation">
                 <nav>
                     <a href="#hebergements-marseille" class="nav-lien1">Hébergements</a>
@@ -32,8 +33,19 @@
             <p>En plein centre-ville ou en pleine nature</p>
            </div>
         </header>
+
+        <!-- Barre de recherche -->
         <main>
+            <div class="recherche">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <form>
+                        <input class="ville" type="text" placeholder="Marseille, France">
+                    </form>
+                    <button id="recherche-desktop">Rechercher</button>
+            </div>
+
             <div class="hebergements-and-populaires">
+                <!-- Hébergements -->
                 <section class="hebergements">
 
                 </section>
