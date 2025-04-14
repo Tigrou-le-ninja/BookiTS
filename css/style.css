@@ -130,6 +130,7 @@ nav a:hover {
 
 .recherche input::placeholder {
     color: black;
+    font-size: 18px;
 }
 
 .recherche #recherche-desktop {
@@ -137,6 +138,7 @@ nav a:hover {
     border: none;
     height: 49px;
     width: 132px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,6 +171,7 @@ nav a:hover {
     border-radius: 40px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
+    box-sizing: border-box;
 }
 
 .filtre:hover {
@@ -210,6 +213,57 @@ nav a:hover {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements {
+    width: 67%;
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hebergements-cards .card {
+    margin-top: 33px;
+}
+
+.hebergements-cards img {
+    width: 250px;
+    height: 114px;
+    border: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.populaires-cards .card {
+    display: flex;
+    margin-top: 33px;
+}
+
+.hebergements-cards .card-title-hebergements {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.hebergements-cards .card-subtitle-hebergements {
+    margin: 0;
+}
+
+.hebergements-cards .card-txt {
+    padding: 0 15px 0 15px;
+}
+
+.hebergements-cards .card-rating-hebergements {
+    padding: 8px 15px 0 15px;
+}
+
+.afficher-plus {
+    margin: 33px 0 0 0;
 }
 
 /****** Populaires ***********/
