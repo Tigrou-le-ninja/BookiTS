@@ -329,10 +329,13 @@ nav a:hover {
     gap: 30px;
 }
 
-.activites-cards .card {
+.activites-cards .card-act {
     display:flex;
     width: 298px;
     justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
 .activites-cards img {
@@ -342,10 +345,23 @@ nav a:hover {
     border-top-right-radius: 20px;
 }
 
-.activites-cards .card h3 {
+.activites-cards .card-act h3 {
     padding: 0 19px 0 19px;
 }
 
+/* Footer */
+.footer-total {
+    display: flex;
+    background-color: #F2F2F2;
+    padding: 20px;
+    gap: 35px;
+}
+.footer-element {
+    width: 33%;
+}
+.title-footer {
+    font-size: 18px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
