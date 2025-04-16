@@ -20,12 +20,10 @@
         <header class="nav-slogan">
            <div class="logo-navigation">
             <img src="./images/logo/Booki.png" alt="Logo de Booki">
-            <div class="navigation">
-                <nav>
+                <nav class="navigation">
                     <a href="#hebergements-marseille" class="nav-lien1">Hébergements</a>
                     <a href="#activites-marseille" class="nav-lien2">Activités</a>
                 </nav>
-            </div>
            </div>
            <div class="slogan">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -35,13 +33,13 @@
 
         <main>
             <!-- Barre de recherche -->
-            <div class="recherche">
+            <section class="recherche">
                     <i class="fa-solid fa-location-dot"></i>
-                    <form>
+                    <form class="barre-recherche" action="#" method="post">
                         <input class="ville" type="text" placeholder="Marseille, France">
+                        <button id="recherche-desktop">Rechercher</button>
                     </form>
-                    <button id="recherche-desktop">Rechercher</button>
-            </div>
+                </section>
 
             <!-- Filtres de recherche -->
             <section class="filtres-recherche">
@@ -79,8 +77,8 @@
                         <h2 id="hebergements-marseille" class="section-title">Hébergements à Marseille</h2>
                     </div> 
                     <div class="hebergements-cards">
-                        <a href="#">
-                        <article class="card">
+                        <a class="lien-hebergements"  href="#">  
+                        <article class="card-hebergements">
                             <img src="./images/hebergements/fred-kleber.jpg" alt=" image de le chambre d'hôtel">
                                 <div class="card-content-hebergements">
                                     <div class="card-txt">
@@ -98,8 +96,8 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#">
-                            <article class="card">
+                        <a class="lien-hebergements" href="#">
+                            <article class="card-hebergements">
                                 <img src="./images/hebergements/febrian-zakaria.jpg" alt="image de la chambre d'hôtel">
                                 <div class="card-content-hebergements">
                                     <div class="card-txt">
@@ -117,8 +115,8 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#">
-                            <article class="card">
+                        <a class="lien-hebergements" href="#">
+                            <article class="card-hebergements">
                                 <img src="./images/hebergements/reisetopia.jpg" alt="image de la chambre d'hôtel">
                                 <div class="card-content-hebergements">
                                     <div class="card-txt">
@@ -136,8 +134,8 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#">
-                            <article class="card">
+                        <a class="lien-hebergements" href="#">
+                            <article class="card-hebergements">
                                 <img src="./images/hebergements/annie-spratt.jpg" alt="image de la chambre d'hôtel">
                                 <div class="card-content-hebergements">
                                     <div class="card-txt">
@@ -155,8 +153,8 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#">
-                            <article class="card">
+                        <a class="lien-hebergements" href="#">
+                            <article class="card-hebergements">
                                 <img src="./images/hebergements/marcus-loke.jpg" alt="image de la chambre d'hôtel">
                                 <div class="card-content-hebergements">
                                     <div class="card-txt">
@@ -174,8 +172,8 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#">
-                            <article class="card">
+                        <a class="lien-hebergements" href="#">
+                            <article class="card-hebergements">
                                 <img src="./images/hebergements/nicate-lee.jpg" alt="image de la chambre d'hôtel">
                                 <div class="card-content-hebergements">
                                     <div class="card-txt">
@@ -194,7 +192,7 @@
                             </article>
                         </a>
                     </div>
-                    <h3 class="afficher-plus">Afficher plus</h3>
+                    <a href="#"></a><h3 class="afficher-plus">Afficher plus</h3></a>
                 </section>
 
                 <!-- Populaires-->
@@ -309,19 +307,19 @@
         <footer class="footer-total">
             <div class="footer-element">
                 <h4 class="footer-title">À propos</h4>
-                    <p><a href="#">Fonctionnement du site</a></p>
-                    <p><a href="#">Conditions générales </a></p>
-                    <p><a href="#">Données et confidentialité</a></p>
+                <p><a href="#">Fonctionnement du site</a></p>
+                <p><a href="#">Conditions générales </a></p>
+                <p><a href="#">Données et confidentialité</a></p>
             </div>
             <div class="footer-element">
                 <h4 class="footer-title">Nos hébergements</h4>
-                    <p><a href="#">Charte qualité</a></p>
-                    <p><a href="#">Proposer votre hôtel</a></p>
+                <p><a href="#">Charte qualité</a></p>
+                <p><a href="#">Proposer votre hôtel</a></p>
             </div>
             <div class="footer-element">
                 <h4 class="footer-title">Assistance</h4>
-                    <p><a href="#">Centre d’aide</a></p>
-                    <p><a href="#">Nous contacter</a></p>
+                 <p><a href="#">Centre d’aide</a></p>
+                 <p><a href="#">Nous contacter</a></p>
             </div>
         </footer>
     </div>
