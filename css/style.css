@@ -349,6 +349,7 @@ Sub-division en deux div qui contiennent 2 filtres chacun */
 .activites-cards {
     display:flex;
     gap: 30px;
+    margin: 10px;
 }
 
 .activites-cards .card-act {
