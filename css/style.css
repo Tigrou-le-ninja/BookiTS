@@ -161,8 +161,7 @@ nav a:hover {
     background-color: #0065FC;
 }
 
-/* Filtres de recherche --> Media queries : passer en column pour la tablette pour que le titre soit au-dessus 
-Sub-division en deux div qui contiennent 2 filtres chacun */
+/* Filtres de recherche */
 .filtres-recherche {
     display: flex;
     align-items: center;
@@ -175,6 +174,17 @@ Sub-division en deux div qui contiennent 2 filtres chacun */
 
 .filtres-tous{
     display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.filtres-1-2 {
+    display:flex;
+    gap: 15px;
+}
+
+.filtres-3-4 {
+    display:flex;
     gap: 15px;
 }
 
@@ -391,13 +401,32 @@ Sub-division en deux div qui contiennent 2 filtres chacun */
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    /* Filtres de recherche */
+    .filtres-recherche {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .filtres-tous {
+        display:flex;
+        flex-direction: row;
+    }
+
+    /* Hébergements et populaires */
     .hebergements-and-populaires {
         flex-direction: column;
     }
 
+    /* Hébergements */
+
     .hebergements {
         width: 100%;
     }
+
+    /* Populaires */
 
     .populaires {
         width: 100%;
@@ -420,6 +449,20 @@ Sub-division en deux div qui contiennent 2 filtres chacun */
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    /* Activités */
+    .activites-cards img {
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .activites-cards {
+        display:flex;
+        gap: 30px;
+        margin-top: 10px;
     }
 }
 
