@@ -72,7 +72,6 @@ a {
 
 .logo-navigation {
     display:flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -102,24 +101,22 @@ nav a:hover {
 }
 
 .slogan h1 {
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .slogan p {
-    font-size: 19px;
+    font-size: 16px;
 }
 
 /* Barre de recherche */
 
 .recherche {
     display: flex;
-    flex-direction: row;
     margin: 30px 0 30px 0;
 }
 
 .barre-recherche {
     display:flex;
-    flex-direction: row;
 }
 
 .recherche .fa-location-dot {
@@ -136,11 +133,10 @@ nav a:hover {
 .recherche input {
     display:flex;
     text-align: center;
-    height: 47px;
     width: 236px;
     border: #F2F2F2 1px solid;
     font-weight: bold;
-    padding: 0 0 0 0;
+    padding: 0;
 }
 
 .recherche input::placeholder {
@@ -169,7 +165,6 @@ nav a:hover {
 .recherche .fa-magnifying-glass {
     color: white;
     border-radius: 15px 15px 15px 15px;
-    height: 49px;
     width: 50px;
     display: flex;
     justify-content: center;
@@ -189,7 +184,6 @@ nav a:hover {
 
 .filtres-tous{
     display: flex;
-    flex-direction: row;
     gap: 15px;
 }
 
@@ -438,7 +432,6 @@ nav a:hover {
 
     .filtres-tous {
         display:flex;
-        flex-direction: row;
     }
 
     /* Hébergements et populaires */
@@ -461,7 +454,6 @@ nav a:hover {
 
     .populaires-cards {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
     }
 
@@ -515,14 +507,6 @@ Réviser : Web sémantique, spécificité CSS, commandes git */
 
 .slogan {
     margin: 0 20px;
-}
-
-.slogan h1 {
-    font-size: 22px;
-}
-
-.slogan h2 {
-    font-size: 16px;
 }
 
 .navigation {
@@ -617,7 +601,7 @@ Réviser : Web sémantique, spécificité CSS, commandes git */
 
     .populaires-cards {
         display:flex;
-        flex-direction:column;
+        flex-direction: column;
     }
 
     .populaires-cards .card {
@@ -634,7 +618,7 @@ Réviser : Web sémantique, spécificité CSS, commandes git */
 
     .hebergements-cards {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         gap: 0;
     }
     
@@ -659,7 +643,7 @@ Réviser : Web sémantique, spécificité CSS, commandes git */
     }
     
     .activites-cards {
-        display:flex;
+        display: flex;
         flex-direction: column;
         gap: 10px;
     }
@@ -673,7 +657,7 @@ Réviser : Web sémantique, spécificité CSS, commandes git */
         height: 141px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        object-fit:cover;
+        object-fit: cover;
     }
 
     .activites-cards .card-act a {
@@ -683,7 +667,7 @@ Réviser : Web sémantique, spécificité CSS, commandes git */
     /* Footer */
     .footer-total {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         padding: 30px;
         gap: 0;
         margin: 0;
