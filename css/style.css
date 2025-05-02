@@ -487,8 +487,6 @@ nav a:hover {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-/* Mettre margin: 0 20px; à toutes les sections sauf populaires 
-Réviser : Web sémantique, spécificité CSS, commandes git */
 .main-container {
     padding: 0;
 }
